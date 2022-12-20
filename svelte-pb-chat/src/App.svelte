@@ -5,7 +5,7 @@
 
 </script>
 
-<h1>Pocket Chat</h1>
+<h1>Pocket Chat !</h1>
 
 <Login />
 
