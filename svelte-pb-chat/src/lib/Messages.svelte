@@ -28,7 +28,7 @@
 
         // Subscribe to realtime messages anytime anything changes
         // It doesnt include the expand: user record with real time events
-        unsubscribe = await pb
+        await pb
             .collection('messages')
             .subscribe('*', async ({action, record}) => {
                 if (action === 'create') {
@@ -44,7 +44,7 @@
 
     // Unsubscribe from realtime messages
     onDestroy(() => {
-        unsubscribe?.();
+        pb.collection('messages').unsubscribe();
     });
     
 </script>
