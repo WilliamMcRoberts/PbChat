@@ -1,0 +1,26 @@
+# flyctl launch added from svelte-pb-chat/.gitignore
+# Logs
+svelte-pb-chat/**/logs
+svelte-pb-chat/**/*.log
+svelte-pb-chat/**/npm-debug.log*
+svelte-pb-chat/**/yarn-debug.log*
+svelte-pb-chat/**/yarn-error.log*
+svelte-pb-chat/**/pnpm-debug.log*
+svelte-pb-chat/**/lerna-debug.log*
+
+svelte-pb-chat/**/node_modules
+svelte-pb-chat/**/dist
+svelte-pb-chat/**/dist-ssr
+svelte-pb-chat/**/*.local
+
+# Editor directories and files
+svelte-pb-chat/**/.vscode/*
+!svelte-pb-chat/**/.vscode/extensions.json
+svelte-pb-chat/**/.idea
+svelte-pb-chat/**/.DS_Store
+svelte-pb-chat/**/*.suo
+svelte-pb-chat/**/*.ntvs*
+svelte-pb-chat/**/*.njsproj
+svelte-pb-chat/**/*.sln
+svelte-pb-chat/**/*.sw?
+fly.toml

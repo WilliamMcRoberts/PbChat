@@ -23,8 +23,6 @@
         messages = resultList.items;
     }
 
-    
-
     onMount(async () => {
         await getMessages();
 
@@ -50,7 +48,6 @@
     });
     
 </script>
-
 
 <div class="messages">
     {#each messages as message (message.id)}
